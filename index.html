@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/ic.jpg" />
+    <link rel="stylesheet" href="./files/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <!-- <a href="#" class="logo">Portfolio</a> -->
+      <nav class="navbar" id="myLinks">
+        <a href="#Home" style="--i: 1" class="active">Home</a>
+        <a href="#About" style="--i: 2">About</a>
+        <a href="#skills" style="--i: 3">Skills</a>
+        <a href="#Projects" style="--i: 4">Projects</a>
+        <a href="#contact" style="--i: 5">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="Home">
+      <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Nikhitha Bijjala</h1>
+        <h4 style="--i: 6">
+          A graduate student who is<br />
+          passionate in <span class="text"></span>
+        </h4>
+
+        <div class="home-sci">
+          <a
+            href="https://www.linkedin.com/in/nikhitha-bijjala-54874618b/"
+            style="--i: 7"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <!-- <a href="https://instagram.com/midhun_021"style="--i:8" target="_blank"><i class='bx bxl-instagram' ></i></a> -->
+          <!-- <a href="https://www.youtube.com/@Unlucky_Coder21"style="--i:9" target="_blank"><i class='bx bxl-youtube'></i></a> -->
+          <a
+            href="https://github.com/NIkhitha07"
+            style="--i: 10"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+        <a
+          href="https://drive.google.com/file/d/1ANudsd9cbO6vpcjasd3rUqwarotYfaSJ/view?usp=sharing"
+          style="--i: 11"
+          class="btn-box"
+          target="_blank"
+          >Download Resume</a
+        >
+      </div>
+    </section>
+
+    <section>
+      <div class="about" id="About">
+        <div class="about-img">
+          <img src="./img/img.jpeg" class="abt-res" />
+        </div>
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <p>
+            I'm Nikhitha Bijjala, a computer science graduate student driven by
+            the sheer joy of developing applications. As an Associate Software
+            Engineer, I've passionately crafted innovative solutions using
+            technologies like React, JavaScript, HTML, and CSS. My journey
+            involves seamlessly integrating backend APIs with Node.js, crafting
+            dynamic web applications, and contributing to mobile app development
+            using React Native. This diverse skill set reflects my commitment to
+            pushing boundaries and finding creative solutions to complex
+            challenges.
+            <br />
+            <br />
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'skills')">
+        Technical skills
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'experience')">
+        Work Experience
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'education')">
+        Education
+      </button>
+    </div>
+
+    <div id="skills" class="tabcontent2" >
+      <h1 class="subtitle">My <span>Skills</span></h1>
+      <div class="skills_section">
+        <div class="sec">
+          <div class="container1">
+            <!-- <h1 class="heading1">Technical Skills</h1> -->
+            <div class="Technical-bars">
+              <div class="bar">
+                <i class="bx bxl-html5" style="color: #c9332e"></i>
+                <div class="info">
+                  <span>HTML, CSS, JS, TS <span class="addhtml"></span></span>
+                </div>
+                <div class="progress-line html">
+                  <span></span>
+                </div>
+              </div>
+              <div class="bar">
+                <i class="bx bxl-github" style="color: #c9332e"></i>
+                <div class="info">
+                  <span>Git<span class="addhtml"></span></span>
+                </div>
+                <div class="progress-line html">
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="bar">
+                <i class="bx bxl-css3" style="color: #147bbc"></i>
+                <div class="info">
+                  <span
+                    >React, React Native, Angular, SQL
+                    <span class="addcss"></span
+                  ></span>
+                </div>
+                <div class="progress-line css">
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="bar">
+                <i class="bx bxl-python" style="color: #b0bc1e"></i>
+                <div class="info">
+                  <span>Python, C <span class="addpy"></span></span>
+                </div>
+                <div class="progress-line python">
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="bar">
+                <i class="bx bxl-java" style="color: #c95d2e"></i>
+                <div class="info">
+                  <span>Java<span class="addjava"></span></span>
+                </div>
+                <div class="progress-line java">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container1">
+            <!-- <h1 class="heading1">Professional Skills</h1> -->
+            <div class="radial-bars">
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                  <circle class="path path-1" cx="100" cy="80" r="80"></circle>
+                </svg>
+                <div class="percentage">60%</div>
+                <div class="text">Problem Solving</div>
+              </div>
+
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                  <circle class="path path-4" cx="100" cy="80" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">Web Development</div>
+              </div>
+
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                  <circle class="path path-3" cx="100" cy="80" r="80"></circle>
+                </svg>
+                <div class="percentage">80%</div>
+                <div class="text">Communication</div>
+              </div>
+
+              <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                  <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                  <circle class="path path-4" cx="100" cy="80" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">Teamwork</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="experience" class="tabcontent">
+      <section id="Services">
+        <div class="project">
+          <div class="container">
+            <h1 class="sub-title">My <span>Experience</span></h1>
+            <div class="prj-list">
+              <div>
+                <i class="bx bx-cube" style="color: #00eeff"></i>
+                <h2>Frontend Developer Intern</h2>
+                <p>
+                  Specialized in creating clean, artful design that are both
+                  intuitive and functional.
+                </p>
+              </div>
+              <div>
+                <i class="bx bxl-android" style="color: #00eeff"></i>
+                <h2>Mobile Application Developer</h2>
+                <p>
+                  Mobile application developer with knowledge of Java and
+                  Android Studio.
+                </p>
+              </div>
+              <div>
+                <i class="bx bx-code" style="color: #00eeff"></i>
+                <h2>Student Assistant at ITS</h2>
+                <p>
+                  Plan, create and code internet sites and web pages with modern
+                  and artful design.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="education" class="tabcontent">
+      <section id="Services">
+        <div class="project">
+          <div class="container">
+            <h1 class="sub-title">My <span>Education</span></h1>
+            <table class="table-style">
+              <tr>
+                <td>Masters in Computer science</td>
+                <td>University at Albany, January 2023 - present</td>
+              </tr>
+              <tr>
+                <td>Bachelors in computer science</td>
+                <td>2018 - 2022</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="Projects">
+      <div id="portfolio" class="services">
+        <div class="main-text" id="serv">
+          <h2>My <span>Projects</span></h2>
+
+          <div class="projects-sec">
+            <div class="card">
+              <h3>What's app clone</h3>
+              <p>
+                Designed and implemented a user-friendly interface reminiscent
+                of WhatsApp, including functionalities such as
+                real-timepeer-to-peer messaging and profile image uploads.
+                Utilized Redux and various libraries to enhance state
+                management,resulting in an efficient and captivating user
+                experience.
+              </p>
+              <a
+                href="https://github.com/NIkhitha07/Reactnative/tree/main/assignment"
+                class="pro-button"
+                >Get Code</a
+              >
+            </div>
+            <div class="card">
+              <h3>Data Scultor</h3>
+              <p>
+                The project incorporates all CRUD (Create, Read, Update, Delete)
+                operations using MongoDB for efficient datamanagement on the
+                backend powered by Node.js. React Router is employed to
+                facilitate seamless navigation betweendifferent pages, enhancing
+                the overall user experience. To elevate the visual appeal and
+                user interface, Bootstrap andother relevant libraries are
+                utilized.
+              </p>
+              <a
+                href="https://github.com/NIkhitha07/Data-sculptor"
+                class="pro-button"
+                >Get Code</a
+              >
+            </div>
+            <div class="card">
+              <h3>File Flow Manager</h3>
+              <p>
+                The project incorporated three core components: a client, a
+                server, and a cache.The system employed a cache to optimizefile
+                retrieval, first checking locally for requested files. If the
+                file was unavailable in the cache, it would be retrieved from
+                theserver. For file uploads, the system efficiently stored files
+                directly on the server, bypassing the cache.
+              </p>
+              <a
+                href="https://github.com/NIkhitha07/File-flow-manager"
+                class="pro-button"
+                >Get Code</a
+              >
+            </div>
+            <div class="card">
+              <h3>My Protofolio</h3>
+              <p>
+                Designed and implemented a user-friendly interface reminiscent
+                of WhatsApp, including functionalities such as
+                real-timepeer-to-peer messaging and profile image uploads.
+                Utilized Redux and various libraries to enhance state
+                management,resulting in an efficient and captivating user
+                experience.
+              </p>
+              <a
+                href="https://github.com/NIkhitha07/Reactnative/tree/main/assignment"
+                class="pro-button"
+                >Get Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id ="contact">
+
+    
+    <div class=" contact-text">
+        <h2>Contact <span>Me</span></h2>
+       <div class="contactb">
+        <h3>Let's Work Together</h3>
+        <div class="contact">
+            <div class="details">
+                <p>
+                    As a motivated individual eager to gain practical experience, 
+                    I am on the lookout for internship opportunities that align with my 
+                    interests and skills. 
+                    If you see a potential match between your organization's needs 
+                    and my abilities, I'd love to hear from you.
+                     Let's explore how we can collaborate for mutual growth.
+                </p>
+    
+            </div>
+            <div class="details">
+                <div class="contact-list">
+                    <li><i class="bx bxs-send"></i>nbijjala@albany.edu</li>
+                    <li><i class="bx bxs-phone-call"></i>8387469185</li>
+                  </div>
+            </div>
+    
+        </div>
+       </div>
+       
+    </div>
+  </section>
+
+    <div class="last-text">
+      <p>
+        Developed by Nikhitha
+        <i class="bx bx-copyright" style="color: white"></i> 2024
+      </p>
+    </div>
+    <!-- <a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i></a> -->
+
+    <script src="./files/script.js"></script>
+  </body>
+</html>
